@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    padding: 25px 0px;
+    background-color: #262626;
+position: relative;
+    // .footer__txt
+
+    &__txt {
+        position: absolute;
+        right: 45px;
+        color: #7e7e7e;
+    }
+
+}

@@ -1,0 +1,95 @@
+.skills {
+    margin-bottom: 100px;
+
+    // .skills_diagram
+
+    &__diagram {
+        
+    }
+
+    &__mini-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    // .skills__container
+
+    &__container {}
+
+    &__content{
+        max-width: 160px;
+        text-align: center;
+    }
+
+    &__zagolovok{
+        text-transform: uppercase;
+        font-family: $fontfamily_R;
+        font-size: rem(20);
+        margin: 20px 0px;
+    }
+
+    &__txt{
+        color: #616161;
+
+    }
+    // .skills__title
+
+    &__title {}
+
+    // .skills__text
+
+    &__text {}
+
+    // .skills__wrap
+
+    &__wrap {
+        padding: 0px 210px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+@property --p{
+    syntax: '<number>';
+    inherits: true;
+    initial-value: 0;
+  }
+  
+  .skills__diagram {
+    --p:20;
+    --b:22px;
+    --c:darkred;
+    --w:150px;
+    
+    width:var(--w);
+    aspect-ratio:1;
+    position:relative;
+    display:inline-grid;
+    margin:5px;
+    place-content:center;
+    font-size:40px;
+    font-family: $fontfamily_L;
+  }
+  .skills__diagram:before,
+  .skills__diagram:after {
+    content:"";
+    position:absolute;
+    border-radius:50%;
+  }
+  .skills__diagram:before {
+    inset:0;
+    background:
+      radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+      conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+ 
+  @keyframes p {
+    from{--p:0}
+  }
+
+

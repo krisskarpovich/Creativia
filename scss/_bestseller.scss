@@ -1,0 +1,79 @@
+.bestseller {
+    padding: 100px 0px;
+
+
+
+    // .bestseller_table
+
+    &__table {
+        color: #262626;
+border-collapse: collapse;
+text-align: center;
+        // border: 1px solid grey;
+
+    }
+
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .bestseller__container
+
+    &__container {}
+
+    // .bestseller__title
+
+    &__title {}
+
+    // .bestseller__text
+
+    &__text {}
+}
+
+.table-bestseller {
+
+    // .table-bestseller__row
+
+    &__row {
+        padding: 10px;
+    }
+
+    
+
+    &__btn{
+        width: 100%;
+        display: block;
+        padding: 15px 50px;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #000;
+    }
+
+    &__zagolovok {
+        font-size: rem(20);
+        font-family: $fontfamily_R;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #000;
+    }
+
+    &__price {
+        padding-top: 25px;
+        font-size: rem(50);
+        font-family: $fontfamily_L;
+        font-weight: 700;
+        background-color: #f2f2f2;
+    }
+
+    &__year {
+
+        font-size: rem(20);
+        font-weight: 500;
+    }
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid grey;
+ }

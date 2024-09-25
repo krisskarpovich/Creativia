@@ -1,0 +1,154 @@
+.clints {
+    text-align: center;
+	color: white;
+    margin-top: 172px;
+	padding-top: 90px;
+	padding-bottom: 100px;
+	width: 100%;    
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), 
+	url("../img/clints.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+    // .clints__title
+
+    &__title {}
+
+    // .clints__text
+
+    &__text {
+        color: #a4a4a4
+    }
+
+    // .clints__wrapper
+
+    &__wrapper {
+        display: flex;
+    }
+
+    // .clints__review
+
+    &__review {}
+
+    &__cards {
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(205,205,205,1) 77%, rgba(131,131,131,1) 100%);}
+}
+
+.review {
+
+    // .review__zagolovok
+
+    &__zagolovok {
+        text-transform: uppercase;
+        font-size: rem(20);
+        font-family: $fontfamily_R;
+        margin-bottom: 50px;
+    }
+
+    // .review__content
+
+    &__content {
+        font-size: rem(16);
+        font-family: $fontfamily_L;
+        color: #a4a4a4;
+        margin-bottom: 45px;
+    }
+        
+    // .review__img
+
+    &__img {
+        margin-bottom: 18px;
+    }
+
+    // .review__name
+
+    &__name {
+        text-transform: uppercase;
+        font-size: rem(16);
+        font-family: $fontfamily_R;
+        font-weight: bold;
+    }
+}
+
+.cards {
+    display: flex;
+
+		// .cards__column
+
+	&__column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__column:not(:last-child) {
+        margin-right: 30px;
+    }
+
+	// .cards__item
+
+	&__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 60px;
+        color: black;
+        font-size: 20x;
+        background: rgb(255,255,255);
+        background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(205,205,205,1) 77%, rgba(131,131,131,1) 100%);
+        height: 110px;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+
+	// .cards__icon
+
+	&__icon {
+        margin-right: 5px;
+    }
+
+	// .cards__zagolovok
+
+	&__zagolovok {}
+}
+
+
+// .box1,
+// .box2 {
+//   width: 100px;
+//   height: 100px;
+//   border: 1px solid black;
+//   text-align: center;
+// }
+
+// .box1 {
+//   display: block;
+// }
+
+// .box2 {
+//   display: none;
+// }
+
+// .wrapper {
+//   width: auto;
+//   display: inline-block;
+//   background-color: red;
+// }
+
+// .wrapper:hover .box1 {
+//   display: none;
+// }
+
+// .wrapper:hover .box2 {
+//   display: block;
+// }
+
+
+
+

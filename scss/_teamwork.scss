@@ -1,0 +1,137 @@
+.teamwork {
+    padding-top: 100px;
+
+    // .teamwork__container
+
+    &__container {}
+
+    // .teamwork__title
+
+    &__title {}
+
+    // .teamwork__text
+
+    &__text {}
+
+    // .teamwork__cards
+
+    &__cards {
+        display: flex;
+    justify-content: space-between;
+        
+    }
+
+    &__range {
+
+        width: 100%;
+        margin: 100px 0px 100px 345px;
+    }
+
+}
+
+
+.cards {
+
+    // .cards__element
+
+    &__wrapper {}
+
+
+
+
+
+    &__element {
+        display: block;
+        text-align: center;
+        border: 1px solid #e7e7e7;
+    }
+
+
+
+    
+}
+
+.element-hover{
+    display: none;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+        width: 270px;
+    
+
+    &__block {  
+        height: 240px;
+        margin-bottom: 30px;
+        background-color: #262626;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__zagolovok {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        color: #ff0036;
+    }
+
+    // .cards__txt
+
+    &__txt {
+        margin-bottom: 20px;
+        
+    }
+
+    &__img:not(:last-child){
+        margin-right: 5px;
+    }
+
+
+
+
+
+}
+
+
+.cards__wrapper:hover .cards__element {
+    display: none;
+
+}
+  
+.cards__wrapper:hover .element-hover{
+    display: block;
+    
+    
+}
+
+
+
+
+
+.element {
+
+    &__img {
+        max-width: 268px;
+        max-height: 240px;
+        margin-bottom: 30px;
+
+    }
+
+    // .cards__zagolovok
+
+    &__zagolovok {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    // .cards__txt
+
+    &__txt {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+

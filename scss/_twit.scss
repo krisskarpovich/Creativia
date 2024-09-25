@@ -1,0 +1,24 @@
+.twit {
+    padding: 100px 0px;
+text-align: center;background-color: #272727;
+color: #fff;
+    // .twit__container
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // .twit__icon
+
+    &__icon {}
+
+    // .twit__text
+
+    &__text {
+        padding-bottom: 0px;
+        max-width: 700px;
+    }
+}
+

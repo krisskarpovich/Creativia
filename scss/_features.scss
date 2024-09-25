@@ -1,0 +1,126 @@
+.features {
+    margin-top: 100px;
+
+
+    // .features__phone-block
+    position: relative;
+    &__phone-block {
+        margin-top: 70px;
+    }
+
+    &__img{
+        text-align: center;
+        position: absolute;
+        top: 85px;
+        // right: 5px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+          
+    }
+}
+
+.phone-block {
+    // background-image: url('img/phone.png');
+
+    // .phone-block__list
+
+    &__list {
+        display: flex;
+        justify-content: center;
+    }
+
+    // .phone-block__btn
+&__wrapper{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    &__btn {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $fontfamily_R;
+
+		color: white;
+		background-color: #393939;
+		padding: 10px 40px
+	
+    }
+}
+.list {
+
+    // .list__column
+
+    &__column {
+
+    }
+
+    &__column:not(:last-child) {
+        margin: 0px 430px 0px 0px;
+        
+    }
+
+    // .list__item
+
+    &__item {
+        padding: 10px 20px;
+        border: 1px solid #e2e2e2;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 25px
+        
+    }
+}
+.item {
+    color: #262626;
+        text-transform: uppercase;
+        font-size: rem(20);
+        font-family: $fontfamily_R;
+        font-weight: 500;
+        padding-right: 10px;
+  
+    &__content {
+        padding-right: 10px;
+    }
+
+    // .item__icon
+
+    // &__icon {
+    //     &:after{
+    //         content: '';
+    //         background: url('../img/icon-nonacrive\ galka.png') 0 0 no-repeat;
+    //         width: 37px;
+    //         height: 32px;
+    //         position: absolute;
+         
+    //      }
+    //  }
+}
+
+
+.item:hover {
+    cursor: pointer;
+    background-color: #fb0035;
+    color: #fff;
+    
+
+
+    &__icon {
+        // &:hover{
+        //     &:after{
+        //         background: url('../img/icon-galka.png') 0 0 no-repeat;         
+        //     }     
+        // }          
+    }
+}
+
+
+
+
+
